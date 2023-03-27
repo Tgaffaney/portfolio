@@ -1,0 +1,26 @@
+{
+  extends: [
+    "plugin:react-hooks/recommended",
+    "plugin:storybook/recommended"
+  ],
+  ignorePatternes: ["build/", "coverage/"],
+  plugins: ["no-only-tests"],
+  rules: {
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-require-imports": "error",
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "function"
+      }
+    ],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-only-tests/no-only-tests": "error"
+  }
+}

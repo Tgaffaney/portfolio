@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "Nimda.deepdark-material",
+    "eamodio.gitlens",
+    "VisualStudioExptTeam.vscodeintellicode",
+
+    // Javascript specific
+    "formulahendry.auto-rename-tag",
+    "dbaeumer.vscode-eslint",
+    "rvest.vs-code-prettier-eslint"
+  ]
+}
